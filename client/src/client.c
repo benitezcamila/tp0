@@ -25,7 +25,7 @@ int main(void)
 
 	config = iniciar_config();
 
-	config = config_create("cliente.config");
+	config = config_create("/home/utnso/tp0/client/cliente.config");
 
 	if(config==NULL){
 		printf("ERROR \n");
